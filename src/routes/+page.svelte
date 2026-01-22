@@ -13,7 +13,7 @@
   let distribution = "mean"; // "mean" | "median" | "raw"
   let gender = "both"; // "male" | "female" | "both"
   let expertise = "both"; // "expert" | "non-expert" | "both"
-  let dataScale = "0"; // "0" (day) | "1" (week) | "2" (month) | "3" (year)
+  let dataScale = "2"; // "0" (day) | "1" (week) | "2" (month) | "3" (year)
 
   onMount(() => {
     const items = document.querySelectorAll("li");
@@ -354,6 +354,26 @@
     margin-top: 0.5rem;
   }
 
+  section details form fieldset label input[type="range"]::before,
+  section details form fieldset label input[type="range"]::after {
+    content: "";
+    position: absolute;
+    height: 10px;
+    aspect-ratio: 1;
+    top: 50%;
+    translate: 0 -50%;
+    border-radius: 50%;
+    transition: background-color 0.5s ease;
+  }
+
+  section details form fieldset label input[type="range"]::after {
+    left: 0;
+  }
+
+    section details form fieldset label input[type="range"]::before {
+    right: 0;
+  }
+
   @supports (interpolate-size: allow-keywords) {
     details {
       max-height: var(--details-size);
@@ -418,8 +438,9 @@
   section ul {
     height: 100%;
     display: flex;
-    overflow: scroll;
+    overflow-x: scroll;
     scroll-snap-type: x mandatory;
+    overflow-y: hidden;
   }
 
   /* ========================================== */

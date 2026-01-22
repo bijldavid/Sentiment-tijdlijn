@@ -73,9 +73,10 @@ details.period-1 input[type="range"]::-moz-range-thumb {
   border: none;
 }
 
-
-
-
+details.period-1 form fieldset label input[type="range"]::before,
+details.period-1 form fieldset label input[type="range"]::after {
+  background: var(--decade1-gray);
+}
 
 .tool-tip.period-1 {
   background: var(--decade1-black);
@@ -167,6 +168,11 @@ details.period-2 input[type="range"]::-moz-range-thumb {
   border-radius: 50%;
   background: var(--decade2-pink);
   outline: 2px solid var(--decade2-black);
+}
+
+details.period-2 form fieldset label input[type="range"]::before,
+details.period-2 form fieldset label input[type="range"]::after {
+  background: var(--decade2-black);
 }
 
 
@@ -266,6 +272,11 @@ details.period-3 input[type="range"]::-moz-range-thumb {
   border-radius: 50%;
   background: var(--decade3-green);
   outline: 2px solid var(--decade2-black);
+}
+
+details.period-3 form fieldset label input[type="range"]::before,
+details.period-3 form fieldset label input[type="range"]::after {
+  background: var(--decade3-brown);
 }
 
 
@@ -373,6 +384,11 @@ details.period-4 input[type="range"]::-moz-range-thumb {
   outline: 2px solid var(--decade4-black);
 }
 
+details.period-4 form fieldset label input[type="range"]::before,
+details.period-4 form fieldset label input[type="range"]::after {
+  background: var(--decade4-black);
+}
+
 
 .tool-tip.period-4 {
   background: var(--decade4-blue);
@@ -474,6 +490,11 @@ details.period-5 input[type="range"]::-moz-range-thumb {
   border-radius: 50%;
   background: var(--decade5-white);
   outline: 2px solid var(--decade5-white);
+}
+
+details.period-5 form fieldset label input[type="range"]::before,
+details.period-5 form fieldset label input[type="range"]::after {
+  background: var(--decade5-white);
 }
 
 
@@ -578,6 +599,11 @@ details.period-6 input[type="range"]::-moz-range-thumb {
   border-radius: 50%;
   background: var(--decade6-white);
   outline: 2px solid var(--decade6-white);
+}
+
+details.period-6 form fieldset label input[type="range"]::before,
+details.period-6 form fieldset label input[type="range"]::after {
+  background: var(--decade6-white);
 }
 
 

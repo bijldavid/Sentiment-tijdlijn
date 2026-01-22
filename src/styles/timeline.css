@@ -57,6 +57,12 @@ section ul li article {
   /* background: yellow; */
 }
 
+/* @media (max-height: 900px) {
+  section ul li article {
+    width: 18vw !important;
+  }
+} */
+
 section ul li .top-content article {
   bottom: 0;
 }

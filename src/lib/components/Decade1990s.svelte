@@ -42,14 +42,9 @@
                 <p>
                     In de jaren ’90 werd technologie vaak uitgelegd via
                     sciencefiction. Kranten schreven regelmatig over Stanley
-                    Kubrick en Steven Spielberg, zoals in Kubrick terug bij
-                    science fiction en Spielberg maakt filmproject Kubrick af.
-                    Films over kunstmatige intelligentie maakten nieuwe
+                    Kubrick en Steven Spielberg, zij maakten een filmproject
+                    over AI. Films over kunstmatige intelligentie maakten nieuwe
                     technologie begrijpelijk voor een groot publiek.
-                    Sciencefiction vormde zo een brug tussen fantasie en
-                    werkelijkheid. Het liet mogelijke toekomsten zien, maar riep
-                    ook twijfel en vragen op. Technologie werd daardoor tegelijk
-                    spannend en onzeker voorgesteld.
                 </p>
             </div>
             <img src="/images/decade-3/kubricka.png" alt="" />
@@ -67,9 +62,7 @@
                     duidelijk tekortschiet. Artikelen uit De Telegraaf en NRC
                     Handelsblad benadrukken zowel de vooruitgang als de
                     beperkingen. Vooral accenten, context en natuurlijke taal
-                    blijken problematisch. Spraakherkenning fungeert in dit
-                    decennium daardoor vooral als illustratie van hoe complex
-                    menselijke communicatie is voor computers.
+                    blijken problematisch.
                 </p>
             </div>
             <img src="/images/decade-3/spraakherkenning.png" alt="" />
@@ -85,15 +78,13 @@
             <div class="text-container">
                 <h3>Trouw</h3>
                 <p>
-                    Voetbalrobots worden in de jaren ’90 gebruikt als
-                    laagdrempelige testomgeving voor kunstmatige intelligentie.
-                    Dit blijkt uit titels als Voetbalrobots in actie, Duitsland
-                    wordt kampioen voetbal – voor robots en Robot Ronald nog te
-                    slecht voor WK. De nadruk ligt op de tekortkomingen van de
-                    robots: traagheid, gebrekkige coördinatie en beperkt
-                    inzicht. De technologie wordt gepresenteerd als
-                    experimenteel en speels, niet als serieuze vervanging van
-                    menselijke sport.
+                    Trouw schreef in de jaren ’90 het meest over kunstmatige
+                    intelligentie. De krant besteedde veel aandacht aan robots,
+                    computers en de relatie tussen mens en machine. Artikelen
+                    als COMPUTERLINGUISTIEK en Agent in robot leert ons over de
+                    mens laten zien dat Trouw technologie niet alleen technisch
+                    benaderde, maar ook nadacht over de betekenis ervan voor
+                    mensen.
                 </p>
             </div>
             <img src="/images/decade-3/decade3_newspaper.png" alt="" />
@@ -111,11 +102,11 @@
             dateRange={["1990-01-01", "2000-01-01"]}
             bleedDays={5475}
             margin={0}
-            lineColor={lineColor}
-            lineWidth={lineWidth}
-            lineDash={lineDash}
-            pointColor={pointColor}
-            pointSize={pointSize}
+            {lineColor}
+            {lineWidth}
+            {lineDash}
+            {pointColor}
+            {pointSize}
         />
     </div>
 
@@ -208,7 +199,7 @@
 
     .text-container p {
         font-family: "ppneuebit", sans-serif;
-        font-size: 0.8vw;
+        font-size: 1vw;
         line-height: 1.2em;
     }
 

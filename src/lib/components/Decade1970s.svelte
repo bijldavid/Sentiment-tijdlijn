@@ -109,7 +109,10 @@
 
     <img src="/images/decade-1/decade1_bg.png" alt="" />
 
-    <div class="y-axis"></div>
+    <div class="y-axis">
+        <p>Positief</p>
+        <p>Negatief</p>
+    </div>
 </li>
 
 <style>
@@ -190,7 +193,7 @@
     .top-content article:nth-of-type(1) .text-container {
         max-width: 50%;
         right: 10%;
-        bottom: 15%;
+        bottom: 22%;
     }
 
     .top-content article:nth-of-type(1) span {
@@ -244,7 +247,7 @@
     /* -------------------------- */
 
     .bottom-content article:nth-of-type(1) {
-        left: 0%;
+        left: 3%;
     }
 
     .bottom-content article:nth-of-type(1) .text-container {
@@ -322,5 +325,50 @@
         height: 400px;
         width: 4px;
         background: black;
+    }
+
+    .y-axis p {
+        position: absolute;
+        left: -4em;
+        rotate: -90deg;
+        font-family: "letter";
+        font-weight: 700;
+        font-size: 0.8rem;
+    }
+
+    .y-axis p:first-of-type {
+        top: 0;
+        translate: 0 170%;
+    }
+
+    .y-axis p:last-of-type {
+        bottom: 0;
+        translate: 0 -170%;
+    }
+
+    .y-axis::after {
+        content: "";
+        position: absolute;
+        top: -10px;
+        left: 50%;
+        translate: -50% 0;
+        width: 0;
+        height: 0;
+        border-left: 6px solid transparent;
+        border-right: 6px solid transparent;
+        border-bottom: 10px solid black;
+    }
+
+    .y-axis::before {
+        content: "";
+        position: absolute;
+        bottom: -10px;
+        left: 50%;
+        translate: -50% 0;
+        width: 0;
+        height: 0;
+        border-left: 6px solid transparent;
+        border-right: 6px solid transparent;
+        border-top: 10px solid black;
     }
 </style>
