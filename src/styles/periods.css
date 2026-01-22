@@ -1,0 +1,611 @@
+/* ========================================== */
+/* PERIOD 1 */
+/* ========================================== */
+
+details.period-1 {
+  background: var(--decade1-black);
+  border-radius: 5px;
+}
+
+details.period-1 summary p {
+  color: var(--decade1-sand);
+  font-family: "letter";
+  font-size: 1.2rem;
+  font-weight: 700;
+  margin-top: 3px;
+}
+
+details.period-1 summary .details-icon span {
+  background-color: var(--decade1-sand);
+}
+
+details.period-1 form fieldset legend {
+  color: var(--decade1-sand);
+  font-family: "letter";
+  font-weight: 700;
+}
+
+details.period-1 form fieldset label {
+  color: var(--decade1-sand);
+  font-family: "letter";
+  font-weight: 400;
+}
+
+details.period-1 form fieldset label::before {
+  background: var(--decade1-gray);
+}
+
+details.period-1 input[type="radio"] {
+  border: 2px solid var(--decade1-gray);
+}
+
+details.period-1 input[type="radio"]:checked {
+  border: 2px solid var(--decade1-sand);
+}
+
+details.period-1 input[type="radio"]:checked::before {
+  background: var(--decade1-sand);
+}
+
+details.period-1 input[type="range"] {
+  background: linear-gradient(180deg,
+      transparent 40%,
+      var(--decade1-gray) 40%,
+      var(--decade1-gray) 60%,
+      transparent 60%),
+    repeating-linear-gradient(90deg,
+      transparent 0%,
+      transparent 33%,
+      var(--decade1-gray) 33%,
+      var(--decade1-gray) 33.5%);
+  outline: none;
+}
+
+details.period-1 input[type="range"]::-webkit-slider-thumb {
+  border-radius: 50%;
+  background: var(--decade1-sand);
+  border: none;
+}
+
+details.period-1 input[type="range"]::-moz-range-thumb {
+  border-radius: 50%;
+  background: var(--decade1-sand);
+  border: none;
+}
+
+
+
+
+
+.tool-tip.period-1 {
+  background: var(--decade1-black);
+  border-radius: 5px;
+  color: var(--decade1-sand);
+  font-family: "letter";
+  font-weight: 700;
+  line-height: 1.5em;
+}
+
+.tool-tip.period-1::after {
+  background: var(--decade1-black);
+  mask-image: url(/images/alphasigmatriangle.png);
+  mask-position: center;
+  mask-size: 100%;
+  mask-mode: alpha;
+}
+
+/* ========================================== */
+/* PERIOD 2 */
+/* ========================================== */
+
+details.period-2 {
+  background: var(--decade2-white);
+  border-radius: 30px;
+}
+
+details.period-2 summary p {
+  font-family: "jura";
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: var(--decade2-black);
+}
+
+details.period-2 summary .details-icon span {
+  background-color: var(--decade2-black);
+}
+
+details.period-2 form fieldset legend {
+  color: var(--decade2-black);
+  font-family: "jura";
+  font-weight: 700;
+}
+
+details.period-2 form fieldset label {
+  color: var(--decade2-black);
+  font-family: "jura";
+  font-weight: 400;
+}
+
+details.period-2 form fieldset label::before {
+  background: var(--decade2-pink);
+}
+
+details.period-2 input[type="radio"] {
+  border: 2px solid var(--decade2-black);
+  border-radius: 50%;
+}
+
+details.period-2 input[type="radio"]:checked {
+  border: 2px solid var(--decade2-black);
+}
+
+details.period-2 input[type="radio"]:checked::before {
+  background: var(--decade2-pink);
+  border-radius: 50%;
+}
+
+details.period-2 input[type="range"] {
+  background: linear-gradient(180deg,
+      transparent 40%,
+      var(--decade2-black) 40%,
+      var(--decade2-black) 60%,
+      transparent 60%),
+    repeating-linear-gradient(90deg,
+      transparent 0%,
+      transparent 33%,
+      var(--decade2-black) 33%,
+      var(--decade2-black) 33.5%);
+}
+
+details.period-2 input[type="range"]::-webkit-slider-thumb {
+  border-radius: 50%;
+  background: var(--decade2-pink);
+  outline: 2px solid var(--decade2-black);
+}
+
+details.period-2 input[type="range"]::-moz-range-thumb {
+  border-radius: 50%;
+  background: var(--decade2-pink);
+  outline: 2px solid var(--decade2-black);
+}
+
+
+
+.tool-tip.period-2 {
+  background: var(--decade2-white);
+  border-radius: 30px;
+  color: var(--decade2-black);
+  font-family: 'jura';
+  font-weight: 700;
+  line-height: 1.5em;
+}
+
+.tool-tip.period-2::after {
+  background: var(--decade2-white);
+  mask-image: url(/images/alphasigmatriangle.png);
+  mask-position: center;
+  mask-size: 100%;
+  mask-mode: alpha;
+  border: 3px solid var(--decade2-black);
+
+}
+
+
+
+/* ========================================== */
+/* PERIOD 3 */
+/* ========================================== */
+
+details.period-3 {
+  background: var(--decade3-white);
+  border-radius: 0px;
+  border: 2px solid var(--decade3-brown);
+}
+
+details.period-3 summary p {
+  font-family: "pixel";
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--decade2-black);
+  translate: 0 -55% !important;
+}
+
+details.period-3 summary .details-icon span {
+  width: 4px !important;
+  background-color: var(--decade2-black);
+}
+
+details.period-3 form fieldset legend {
+  color: var(--decade2-black);
+  font-family: "pixel";
+  font-size: .7rem;
+}
+
+details.period-3 form fieldset label {
+  color: var(--decade2-black);
+  font-family: "ppneuebit";
+  font-size: 1.5rem;
+}
+
+details.period-3 form fieldset label::before {
+  background: var(--decade3-green);
+}
+
+details.period-3 input[type="radio"] {
+  border: 2px solid var(--decade2-black);
+}
+
+details.period-3 input[type="radio"]:checked {
+  border: 2px solid var(--decade2-black);
+}
+
+details.period-3 input[type="radio"]:checked::before {
+  background: var(--decade3-green);
+}
+
+details.period-3 input[type="range"] {
+  background: linear-gradient(180deg,
+      transparent 40%,
+      var(--decade2-black) 40%,
+      var(--decade2-black) 60%,
+      transparent 60%),
+    repeating-linear-gradient(90deg,
+      transparent 0%,
+      transparent 33%,
+      var(--decade2-black) 33%,
+      var(--decade2-black) 33.5%);
+}
+
+details.period-3 input[type="range"]::-webkit-slider-thumb {
+  border-radius: 50%;
+  background: var(--decade3-green);
+  outline: 2px solid var(--decade2-black);
+}
+
+details.period-3 input[type="range"]::-moz-range-thumb {
+  border-radius: 50%;
+  background: var(--decade3-green);
+  outline: 2px solid var(--decade2-black);
+}
+
+
+
+.tool-tip.period-3 {
+  background: var(--decade3-white);
+  border-radius: 0px;
+  color: var(--decade3-brown);
+  border: 2px solid var(--decade3-brown);
+  font-family: 'ppneuebit';
+  font-size: 1.5rem;
+  line-height: 1em;
+}
+
+.tool-tip.period-3::after {
+  background: var(--decade3-white);
+  border: 2px solid var(--decade3-brown);
+  rotate: z 45deg;
+  translate: -50% 50% !important;
+  mask-image: linear-gradient(-45deg,
+      black 50%, transparent 50%);
+  mask-mode: alpha;
+  mask-position: center;
+  mask-size: 100%;
+  border-radius: 0 0 0 0;
+}
+
+
+
+/* ========================================== */
+/* PERIOD 4 */
+/* ========================================== */
+
+details.period-4 {
+  background: var(--decade4-blue);
+  border-radius: 25px;
+  border: 3px solid var(--decade4-black);
+}
+
+details.period-4 summary p {
+  font-family: "comicsans";
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: var(--decade2-black);
+  translate: 0 -55% !important;
+}
+
+details.period-4 summary .details-icon span {
+  width: 3px !important;
+  background-color: var(--decade2-black);
+}
+
+details.period-4 form fieldset legend {
+  color: var(--decade2-black);
+  font-family: "comicsans";
+  font-weight: 400;
+}
+
+details.period-4 form fieldset label {
+  color: var(--decade2-black);
+  font-family: "jura";
+  margin-top: -3px;
+}
+
+details.period-4 form fieldset label::before {
+  background: var(--decade4-black);
+}
+
+details.period-4 input[type="radio"] {
+  border: 2px solid var(--decade4-black);
+  border-radius: 50%;
+}
+
+details.period-4 input[type="radio"]:checked {
+  border: 2px solid var(--decade4-black);
+  border-radius: 50%;
+}
+
+details.period-4 input[type="radio"]:checked::before {
+  background: var(--decade4-black);
+}
+
+details.period-4 input[type="range"] {
+  background: linear-gradient(180deg,
+      transparent 40%,
+      var(--decade4-black) 40%,
+      var(--decade4-black) 60%,
+      transparent 60%),
+    repeating-linear-gradient(90deg,
+      transparent 0%,
+      transparent 33%,
+      var(--decade4-black) 33%,
+      var(--decade4-black) 33.5%);
+}
+
+details.period-4 input[type="range"]::-webkit-slider-thumb {
+  border-radius: 50%;
+  background: var(--decade4-white);
+  outline: 2px solid var(--decade4-black);
+}
+
+details.period-4 input[type="range"]::-moz-range-thumb {
+  border-radius: 50%;
+  background: var(--decade4-white);
+  outline: 2px solid var(--decade4-black);
+}
+
+
+.tool-tip.period-4 {
+  background: var(--decade4-blue);
+  border-radius: 20px;
+  color: var(--decade4-black);
+  border: 3px solid var(--decade4-black);
+  font-family: 'comicsans';
+  font-weight: 700;
+  line-height: 1.5em;
+}
+
+.tool-tip.period-4::after {
+  background: var(--decade4-blue);
+  border: 3px solid var(--decade4-black);
+  rotate: z 45deg;
+  translate: -50% 50% !important;
+  mask-image: linear-gradient(-45deg,
+      black 50%, transparent 50%);
+  mask-mode: alpha;
+  mask-position: center;
+  mask-size: 100%;
+  border-radius: 0 0 5px 0;
+}
+
+
+
+/* ========================================== */
+/* PERIOD 5 */
+/* ========================================== */
+
+details.period-5 {
+  background: var(--decade5-blue);
+  border-radius: 5px;
+  border: none;
+}
+
+details.period-5 summary p {
+  font-family: "helvetica";
+  text-transform: uppercase;
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: var(--decade5-white);
+}
+
+details.period-5 summary .details-icon span {
+  width: 2px !important;
+  background-color: var(--decade5-white);
+}
+
+details.period-5 form fieldset legend {
+  color: var(--decade5-white);
+  font-family: "helvetica";
+  font-weight: 400;
+}
+
+details.period-5 form fieldset label {
+  color: var(--decade5-white);
+  font-family: "helvetica";
+}
+
+details.period-5 form fieldset label::before {
+  background: var(--decade5-white);
+}
+
+details.period-5 input[type="radio"] {
+  border: 2px solid var(--decade5-white);
+  border-radius: 50%;
+}
+
+details.period-5 input[type="radio"]:checked {
+  border: 2px solid var(--decade5-white);
+}
+
+details.period-5 input[type="radio"]:checked::before {
+  background: var(--decade5-darkblue);
+  border-radius: 50%;
+}
+
+details.period-5 input[type="range"] {
+  background: linear-gradient(180deg,
+      transparent 40%,
+      var(--decade5-white) 40%,
+      var(--decade5-white) 60%,
+      transparent 60%),
+    repeating-linear-gradient(90deg,
+      transparent 0%,
+      transparent 33%,
+      var(--decade5-white) 33%,
+      var(--decade5-white) 33.5%);
+}
+
+details.period-5 input[type="range"]::-webkit-slider-thumb {
+  border-radius: 50%;
+  background: var(--decade5-white);
+  outline: 2px solid var(--decade5-white);
+}
+
+details.period-5 input[type="range"]::-moz-range-thumb {
+  border-radius: 50%;
+  background: var(--decade5-white);
+  outline: 2px solid var(--decade5-white);
+}
+
+
+
+.tool-tip.period-5 {
+  background: var(--decade5-blue);
+  border-radius: 5px;
+  color: var(--decade5-white);
+  font-family: 'helvetica';
+  font-weight: 700;
+  line-height: 1.5em;
+}
+
+.tool-tip.period-5::after {
+  background: var(--decade5-blue);
+  rotate: z 45deg;
+  translate: -50% 50% !important;
+  mask-image: linear-gradient(-45deg,
+      black 50%, transparent 50%);
+  mask-mode: alpha;
+  mask-position: center;
+  mask-size: 100%;
+  border-radius: 0 0 2px 0;
+}
+
+
+
+/* ========================================== */
+/* PERIOD 6 */
+/* ========================================== */
+
+details.period-6 {
+  background: rgba(136, 136, 136, 0.2);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.563);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.23);
+  border-radius: 5px;
+}
+
+details.period-6 summary p {
+  font-family: "rm-mono";
+  text-transform: uppercase;
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: var(--decade6-white);
+}
+
+details.period-6 summary .details-icon span {
+  width: 1px !important;
+  background-color: var(--decade6-white);
+}
+
+details.period-6 form fieldset legend {
+  color: var(--decade6-white);
+  font-family: "helvetica";
+  font-weight: 400;
+}
+
+details.period-6 form fieldset label {
+  color: var(--decade6-white);
+  font-family: "helvetica";
+}
+
+details.period-6 form fieldset label::before {
+  background: var(--decade6-white);
+}
+
+details.period-6 input[type="radio"] {
+  border: 2px solid var(--decade6-white);
+  border-radius: 50%;
+}
+
+details.period-6 input[type="radio"]:checked {
+  border: 2px solid var(--decade6-white);
+}
+
+details.period-6 input[type="radio"]:checked::before {
+  background: var(--decade6-white);
+  border-radius: 50%;
+}
+
+details.period-6 input[type="range"] {
+  background: linear-gradient(180deg,
+      transparent 40%,
+      var(--decade6-white) 40%,
+      var(--decade6-white) 60%,
+      transparent 60%),
+    repeating-linear-gradient(90deg,
+      transparent 0%,
+      transparent 33%,
+      var(--decade6-white) 33%,
+      var(--decade6-white) 33.5%);
+}
+
+details.period-6 input[type="range"]::-webkit-slider-thumb {
+  border-radius: 50%;
+  background: var(--decade6-white);
+  outline: 2px solid var(--decade6-white);
+}
+
+details.period-6 input[type="range"]::-moz-range-thumb {
+  border-radius: 50%;
+  background: var(--decade6-white);
+  outline: 2px solid var(--decade6-white);
+}
+
+
+
+.tool-tip.period-6 {
+  background: rgba(136, 136, 136, 0.2);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.563);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.23);
+  border-radius: 5px;
+  font-family: 'helvetica';
+  color: white;
+  font-weight: 700;
+  line-height: 1.5em;
+}
+
+.tool-tip.period-6::after {
+  background: rgba(136, 136, 136, 0.2);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.563);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.23);
+  border-radius: 5px;
+  rotate: z 45deg;
+  translate: -50% 50% !important;
+  mask-image: linear-gradient(-45deg,
+      black 50%, transparent 50%);
+  mask-mode: alpha;
+  mask-position: center;
+  mask-size: 100%;
+  border-radius: 0 0 2px 0;
+}

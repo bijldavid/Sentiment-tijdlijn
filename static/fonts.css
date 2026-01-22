@@ -1,0 +1,96 @@
+@font-face {
+    font-family: 'fette';
+    src: url('/fonts/1970/Fette.ttf');
+}
+
+@font-face {
+    font-family: 'inria';
+    src: url('/fonts/1970/Inria.ttf');
+}
+
+@font-face {
+    font-family: 'letter';
+    src: url('/fonts/1970/LetterGothicRegular.ttf');
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'letter';
+    src: url('/fonts/1970/LetterGothicBold.ttf');
+    font-weight: 700;
+}
+
+
+
+
+@font-face {
+    font-family: 'bttf';
+    src: url('/fonts/1980/BTTF.ttf');
+}
+
+@font-face {
+    font-family: 'jura';
+    src: url('/fonts/1980/Jura.ttf');
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'jura';
+    src: url('/fonts/1980/Jura-Bold.ttf');
+    font-weight: 700;
+}
+
+
+
+@font-face {
+    font-family: 'pixel';
+    src: url('/fonts/1990/pixel.ttf');
+}
+
+@font-face {
+    font-family: 'ppneuebit';
+    src: url('/fonts/1990/ppneuebit.otf');
+    font-weight: 400;
+}
+
+
+
+
+
+@font-face {
+    font-family: 'comicsans';
+    src: url('/fonts/2000/ComicSansBold.ttf');
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'comicsans';
+    src: url('/fonts/2000/ComicSans.ttf');
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: 'museosans';
+    src: url('/fonts/2000/MuseoSans.otf');
+}
+
+
+
+
+@font-face {
+    font-family: 'crayon';
+    src: url('/fonts/2010/Crayon.ttf');
+}
+
+@font-face {
+    font-family: 'helvetica';
+    src: url('/fonts/2010/Helvetica.ttc');
+}
+
+
+
+
+@font-face {
+    font-family: 'rm-mono';
+    src: url('/fonts/2020/rm-mono.otf');
+}
