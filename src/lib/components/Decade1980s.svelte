@@ -40,12 +40,11 @@
             <div class="text-container">
                 <h3>Gameboy</h3>
                 <p>
-                    Gennadi Sosonko is een schaakgrootmeester die in kranten
-                    wordt geciteerd over het verschil tussen mens en
-                    schaakcomputer. Hij benadrukt dat schakers intuïtie, emoties
-                    en afleiding hebben, iets wat computers missen. Zo laat hij
-                    zien dat menselijke intelligentie anders werkt dan die van
-                    een machine.
+                    In 1989 kwam de Game Boy uit. Dit was een kleine
+                    spelcomputer die je overal mee naartoe kon nemen. Veel
+                    kinderen en jongeren kwamen zo voor het eerst in aanraking
+                    met computers en digitale technologie in het dagelijks
+                    leven.
                 </p>
             </div>
             <img src="/images/decade-2/gameboy.png" alt="" />
@@ -58,7 +57,7 @@
             <div class="text-container">
                 <h3>Sport vs. wetenschap</h3>
                 <p>
-                    In de jaren '80 wordt er, anders dan in de jaren '70, niet
+                    In de jaren ’80 wordt er, anders dan in de jaren ’70, niet
                     alleen door wetenschappers en bedrijven over AI gesproken,
                     maar ook door gewone mensen. Door schaakcomputers verschijnt
                     AI in de sportwereld, een herkenbare context voor een breed
@@ -79,12 +78,11 @@
             <div class="text-container">
                 <h3>Dagblad</h3>
                 <p>
-                    Gennadi Sosonko is een schaakgrootmeester die in kranten
-                    wordt geciteerd over het verschil tussen mens en
-                    schaakcomputer. Hij benadrukt dat schakers intuïtie, emoties
-                    en afleiding hebben, iets wat computers missen. Zo laat hij
-                    zien dat menselijke intelligentie anders werkt dan die van
-                    een machine.
+                    NRC Handelsblad schreef in de jaren ’80 veel over
+                    kunstmatige intelligentie. De krant stelde vooral vragen:
+                    kan een computer denken en begrijpen zoals een mens? De toon
+                    is rustig en kritisch, met veel aandacht voor wetenschap en
+                    de gevolgen van AI voor de samenleving.
                 </p>
             </div>
             <img src="/images/decade-2/decade2_newspaper.png" alt="" />
@@ -102,11 +100,11 @@
             dateRange={["1980-01-01", "1990-01-01"]}
             bleedDays={5475}
             margin={0}
-            lineColor={lineColor}
-            lineWidth={lineWidth}
-            lineDash={lineDash}
-            pointColor={pointColor}
-            pointSize={pointSize}
+            {lineColor}
+            {lineWidth}
+            {lineDash}
+            {pointColor}
+            {pointSize}
         />
     </div>
 
@@ -185,7 +183,6 @@
     .text-container h3 {
         font-family: "jura";
     }
-
 
     .text-container p {
         font-family: "jura";
